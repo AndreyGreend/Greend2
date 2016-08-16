@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #ffd0a3;
+}
+
+header{ 
+    position: fixed;
+    z-index: 1000;
+    background-image: url(https://4.downloader.disk.yandex.ua/disk/a49720bf50c0a3249379a4a80439afece83e152de71e8fced02c3783f5a3a463/57b1f8db/DrgmqMKApygZZmQ2WiUQ5pO6i4K1_cCNrBUolj3FVoTvY1-nV-Lw8K-0BpPvFLddkTb6lZfuCMLu3xYtO3JdXA%3D%3D?uid=0&filename=bg-header.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=55122&hid=5af30f0a4cefd5253058bcd50e8e7098&media_type=image&tknv=v2&etag=10d32dc8d08441e82babfa7e3658745c);
+    width: 100%;
+    height: 149px;
+    margin: 0 auto;
+} 
+
+
+img.logo { 
+    position: relative;
+    left: 360px;
+    top: 21px;
+    display: inline-block; 
+    float: left;
+} 
+
+ul { 
+    position: absolute;
+    left: 975px;
+    top: 38px;
+    float: left; 
+    list-style: none; 
+}
+ul li {
+    font-family: Arial;
+    font-size: 22px;
+    color: #ffd0a3;
+    clear: left;
+    float: right;
+    padding: 10px 5px 10px 5px;
+    margin-right: 64px;
+    line-height: 20px;
+}
+
+li:hover {
+    border-width: 3px;
+    border-color: #ffd0a3;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+            /* page */
+
+div.page{
+    background-image: url(https://s69h.storage.yandex.net/rdisk/772ac55b3c11343975f14ea14c5980ef9f9c3952f9863a446c5199a74747ade0/57b1f8b0/DrgmqMKApygZZmQ2WiUQ5kCocobE0ggXexn8CjvMOBbH2k1PawviuBqwZaACPp9r7Bz03HwUJnX8_68kCZertQ==?uid=0&filename=bg1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=812931&hid=8358089ffa97600f222bf424c8d38961&media_type=image&tknv=v2&etag=0a37367fd157ee8cee34ce4ed8e83a99&rtoken=WmJjh7xsaTPV&force_default=no&ycrid=na-4efa772ff6ca7babf73f48e46744822a-downloader6g&ts=53a1f60eb8c00&s=c225da067260d5f24507fa3a05e5153579a5c3098109837e0af271f3ea747f6a&bp=/41/4/data-0.17:32928698561:812931);
+    width: 65%; 
+    margin: 0 auto;
+    height: 740px;
+}
+
+div#content {
+    position: relative;
+    top: 250px;
+    height: 490px;
+    width: 100%; 
+    margin: 0 auto;
+    clear: both;
+}
+
+p.welcome {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial Narrow;
+	font-size: 75px;
+	font-weight: bold;
+	color: #FFFFFF;
+    text-align: center;
+	text-shadow: 
+		-0   -1px 2px #000000,
+		 0   -1px 2px #000000,
+		-0    1px 2px #000000,
+		 0    1px 2px #000000,
+		-1px -0   2px #000000,
+		 1px -0   2px #000000,
+		-1px  0   2px #000000,
+		 1px  0   2px #000000,
+		-1px -1px 2px #000000,
+		 1px -1px 2px #000000,
+		-1px  1px 2px #000000,
+		 1px  1px 2px #000000,
+		-1px -1px 2px #000000,
+		 1px -1px 2px #000000,
+		-1px  1px 2px #000000,
+		 1px  1px 2px #000000;
+}
+
+p.usl {
+    width: 73%;
+    margin: 0 auto;
+    font-family: Arial;
+	font-size: 33px;
+	font-weight: bold;
+	color: #D7D7D7;
+    text-align: center;
+	text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+}
+hr {
+    width: 578px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+img.mouse {
+    position: absolute;
+    top: 415px;
+    left: 50px;
+}
+
+        /* uslugi */
+div#usl{
+    width: 65%;
+    margin: 0 auto;
+}
+p#usl {
+    position: relative;
+    font-family: Arial Narrow;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*ПОСАДКА И ВЫРАЩИВАНИЕ ТОПОЛЕЙ*/
+
+div.posadka {
+    height: 266px;
+    background: #e5f6d5;
+}
+
+p.posadka {
+    font-family: Calibri;
+    font-size: 35px;
+    line-height: 266px;
+    text-align: center;
+    width: 63%;
+    float: left;
+}
+
+img.posadka {
+    position: relative;
+    top: 8%;
+    right: 8%;
+    float: right;
+}
+
+/* ПРОДАЖА ТОПОЛИНОГО ПУХА */
+
+div.pyh {
+    height: 266px;
+}
+
+p.pyh {
+    font-family: Calibri;
+    font-size: 35px;
+    line-height: 266px;
+    text-align: center;
+    width: 63%;
+    float: left;
+}
+
+img.pyh {
+    position: relative;
+    top: 8%;
+    right: 8%;
+    float: right;
+}
+
+/* ПРОДАЖА ТОПОЛИНЫХ БРЕВЕН */
+
+div.brevna {
+    height: 266px;
+    background: #e0f6d0;
+}
+
+p.brevna {
+    font-family: Calibri;
+    font-size: 35px;
+    line-height: 266px;
+    text-align: center;
+    width: 63%;
+    float: left;
+}
+
+img.brevna {
+    position: relative;
+    top: 8%;
+    right: 8%;
+    float: right;
+}
